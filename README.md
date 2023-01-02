@@ -23,16 +23,6 @@ The syno_price.ipynb allows to read the data of the different csv files, in orde
 
 ________________________________________________________________________________________________________________________________________________________________
 
-
--------------
-
-For 1) and 2), you need to put the Xpath of the value you want to save into the db (Xpath of the product name + Xpath of the prize of the product) into the py script.
-
-For 3), we use Regex to aim at the "Offre du jour..." part.
--------------
-
-________________________________________________________________________________________________________________________________________________________________
-
 3) Product_of_the_day
 
 The digitec2.py script allows to capture the product of the day on the www.digitec.ch website. Everyday, a product has a discount and is pushed on the first page of the website.
@@ -49,15 +39,20 @@ Should you have any querys, don't hesitate to reach me !
 ________________________________________________________________________________________________________________________________________________________________
 
 
--------------
 
-For 1), 2) and 3), you can add a Gmail account to send you a message with the informations.
-
--------------
 
 I'm still a padawan about Python, but open to suggestions !
 
+kini12
 
 
+
+PS
+
+For 1) and 2), we use the Xpath of the value you want to save into the db (Xpath of the product name + Xpath of the prize of the product) into the py script.
+
+For 3), we use Regex to aim at the "Offre du jour..." part.
+
+For 1), 2) and 3), you can add a Gmail account to send you a message with the informations.
 
 

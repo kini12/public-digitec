@@ -10,7 +10,7 @@ The hd.py script allows to capture the prize of some Ironwolf and WD Red Plus HD
 
 It captures the data and paste it into a csv file.
 
-The data_reader_HD.ipynb allows to read the data of the csv file and the obtain a chart of the prize evolution.
+The data_reader_HD.ipynb allows to read the data of the csv file and then obtain a chart of the prize evolution.
 
 ________________________________________________________________________________________________________________________________________________________________
 
@@ -45,13 +45,13 @@ I'm still a padawan about Python, but open to suggestions !
 
 kini12
 
-
+________________________________________________________________________________________________________________________________________________________________
 
 PS
 
 For 1) and 2), we use the Xpath of the value you want to save into the db (Xpath of the product name + Xpath of the prize of the product) into the py script.
 
-For 3), we use Regex to aim at the "Offre du jour..." part.
+For 3), we use Regex to aim at the "Offre du jour..." part in the HTML code of the page.
 
 For 1), 2) and 3), you can add a Gmail account to send you a message with the informations.
 
